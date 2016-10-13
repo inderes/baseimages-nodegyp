@@ -1,5 +1,5 @@
-FROM iron/node:4.2-dev
+FROM mhart/alpine-node:6.8
 MAINTAINER Markku Virtanen
 RUN apk update
-RUN apk add --no-cache nodejs-lts python build-base py-pip
+RUN apk add --no-cache python build-base py-pip
 RUN npm install node-gyp -g
