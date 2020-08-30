@@ -1,5 +1,5 @@
-FROM iron/node:4.2-dev
-MAINTAINER Markku Virtanen
-RUN apk update && apk upgrade
-RUN apk add python build-base
+FROM mhart/alpine-node:10.17.0
+LABEL maintainer "Markku Virtanen"
+RUN apk update && \
+    apk add --no-cache python build-base py-pip
 RUN npm install node-gyp -g
