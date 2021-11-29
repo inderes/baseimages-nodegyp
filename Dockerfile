@@ -1,5 +1,5 @@
-FROM mhart/alpine-node:10.17.0
+FROM mhart/alpine-node:16
 LABEL maintainer "Markku Virtanen"
 RUN apk update && \
-    apk add --no-cache python build-base py-pip
+    apk add --no-cache python3 build-base py3-pip
 RUN npm install node-gyp -g
