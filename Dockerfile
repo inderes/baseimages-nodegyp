@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:16
+FROM node:16.15-alpine
 LABEL maintainer "Markku Virtanen"
 RUN apk update && \
     apk add --no-cache python3 build-base py3-pip
