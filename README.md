@@ -3,7 +3,7 @@ Docker baseimage with node-gyp and python installed
 
 ~~Uses mhart/alpine-node as baseimage~~
 
-## [2022-04-06]
+## [2023-04-06]
 
 ### Changes
 - Upgraded base image to node:18-alpine
