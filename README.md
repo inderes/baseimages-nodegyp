@@ -6,7 +6,7 @@ Docker baseimage with node-gyp and python installed
 ## [2024-06-05]
 
 ### Changes
-- Upgraded base image to node:18-alpine3.19
+- Upgraded base image to node:20-alpine3.19
 
 ## [2023-04-06]
 
